@@ -60,7 +60,7 @@
 
                 <div class="form-group mb-3">
                     <label for="first_publication">First Publication:</label>
-                    <input type="date" name="first_publication" required max="30" class="form-control" value="<?=$rows->first_publication?>">
+                    <input type="datetime" name="first_publication" required max="30" class="form-control" value="<?=$rows->first_publication?>">
                 </div>
 
                 <div class="form-group mb-3">
